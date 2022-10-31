@@ -5,12 +5,12 @@ const baseUrl = "https://tiktok-metrics-flask-app.herokuapp.com/"
 
 async function get_author(author_name){
    let urlAddition = "tiktok-author?author="+author_name
-   return fetch(baseUrl+urlAddition)
+   return await (await fetch(baseUrl+urlAddition)).json()
 }
 
 async function get_video(author_name,vid_id){
     let urlAddition = "tiktok-video?author="+author_name + "&video_id="+vid_id
-    return fetch(baseUrl+urlAddition)
+    return await (await fetch(baseUrl+urlAddition)).json()
  }
 
 module.exports = {

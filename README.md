@@ -22,8 +22,7 @@
 const tiktok = require('nirs-tiktok-metrics-api');
 
 tiktok.author('author_name')
-.then(authorStats=>authorStats.json())
-.then(authorStatsFinal=>console.log(authorStatsFinal));
+.then(authorStats=>console.log(authorStats));
 ```
 
 #### Get video
@@ -31,8 +30,7 @@ tiktok.author('author_name')
 const tiktok = require('nirs-tiktok-metrics-api');
 
 tiktok.video('author_name','video_id')
-.then(videoStats=>videoStats.json())
-.then(videoStatsFinal=>console.log(videoStatsFinal));
+.then(videoStats=>console.log(videoStats));
 ```
 
 ### Examples
