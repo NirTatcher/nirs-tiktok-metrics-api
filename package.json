@@ -1,6 +1,6 @@
 {
   "name": "nirs-tiktok-metrics-api",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Returns author and video public metrics",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NirTatcher/tiktok-api-npm.git"
+    "url": "git+https://github.com/NirTatcher/nirs-tiktok-metrics-api.git"
   },
   "keywords": [
     "tiktok-api"
@@ -16,9 +16,9 @@
   "author": "Nir",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NirTatcher/tiktok-api-npm/issues"
+    "url": "https://github.com/NirTatcher/nirs-tiktok-metrics-api.git/issues"
   },
-  "homepage": "https://github.com/NirTatcher/tiktok-api-npm#readme",
+  "homepage": "https://github.com/NirTatcher/nirs-tiktok-metrics-api.git#readme",
   "dependencies": {
     "node-fetch": "^3.2.10"
   }
