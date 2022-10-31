@@ -12,7 +12,7 @@
 
 ```npm install nirs-tiktok-metrics-api ```
 
-### Usauge
+### Usage
 
  - ```author_name``` - author name from account url (https://www.tiktok.com/@ ```author_name``` )
  - ```video_id``` - video id from video url (https://www.tiktok.com/@ ```author_name``` /video/ ```video_id``` )
