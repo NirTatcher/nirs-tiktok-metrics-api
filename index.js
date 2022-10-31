@@ -14,8 +14,6 @@ async function get_video(author_name,vid_id){
  }
 
 module.exports = {
-    
     author: async (author_name) =>await get_author(author_name),
     video: async (author_name,vid_id)=> await get_video(author_name,vid_id)
-
 }
