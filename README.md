@@ -1,9 +1,10 @@
 # nirs-tiktok-metrics-api
 
+
 ##### _Get public data from tiktok videos and authors_
 
 
-- Get author metrics such as lieks, followers etc. 
+- Get author metrics such as likes, followers etc. 
 - Get video metrics such as likes, shares, comments etc.
 
 
@@ -13,8 +14,8 @@
 
 ### Usauge
 
-```author_name``` - author name from account url (https://www.tiktok.com/@```author_name```)
-```video_id``` - video id from video url (https://www.tiktok.com/@```author_name```/video/```video_id```)
+ - ```author_name``` - author name from account url (https://www.tiktok.com/@ ```author_name``` )
+ - ```video_id``` - video id from video url (https://www.tiktok.com/@ ```author_name``` /video/ ```video_id``` )
 #### Get author
 
 ```
@@ -29,7 +30,7 @@ tiktok.author('author_name')
 ```
 const tiktok = require('nirs-tiktok-metrics-api');
 
-tiktok.video('author name','video_id')
+tiktok.video('author_name','video_id')
 .then(videoStats=>videoStats.json())
 .then(videoStatsFinal=>console.log(videoStatsFinal));
 ```
@@ -50,4 +51,7 @@ tiktok.video('author name','video_id')
   status: 200
 }
 ```
+> NOTE:
+> The package relies on fetch calls to my tiktok api app hosted on heroku (currently a private repo)
+
 

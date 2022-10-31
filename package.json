@@ -1,6 +1,6 @@
 {
   "name": "nirs-tiktok-metrics-api",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Returns author and video public metrics",
   "main": "index.js",
   "scripts": {
